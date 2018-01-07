@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		14E7D46D2001C8C800792AE3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E7D46C2001C8C800792AE3 /* AppDelegate.swift */; };
 		14E7D46F2001C8C800792AE3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E7D46E2001C8C800792AE3 /* ViewController.swift */; };
-		14E7D4722001C8C800792AE3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14E7D4702001C8C800792AE3 /* Main.storyboard */; };
+		14E7D4722001C8C800792AE3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14E7D4702001C8C800792AE3 /* Main.storyboard */; settings = {ASSET_TAGS = (Chico, Grande, Mediano, ); }; };
 		14E7D4742001C8C800792AE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14E7D4732001C8C800792AE3 /* Assets.xcassets */; };
 		14E7D4772001C8C800792AE3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14E7D4752001C8C800792AE3 /* LaunchScreen.storyboard */; };
 		14E7D47F2001CCB200792AE3 /* ViewTamanio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E7D47E2001CCB200792AE3 /* ViewTamanio.swift */; };
@@ -102,6 +102,11 @@
 		14E7D4612001C8C800792AE3 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					Chico,
+					Grande,
+					Mediano,
+				);
 				LastSwiftUpdateCheck = 0720;
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "Yasmin Cueva Lavezzo";
