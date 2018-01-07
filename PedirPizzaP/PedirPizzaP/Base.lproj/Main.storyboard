@@ -5,10 +5,10 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
     </dependencies>
     <scenes>
-        <!--Main-->
+        <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController title="Main" id="BYZ-38-t0r" customClass="ViewController" customModule="PedirPizzaP" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="PedirPizzaP" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -18,7 +18,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v2D-u3-e3x">
-                                <rect key="frame" x="237" y="502" width="127" height="18"/>
+                                <rect key="frame" x="237" y="364" width="127" height="18"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="127" id="beb-O6-mUB"/>
                                 </constraints>
@@ -29,11 +29,11 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="0.4823529411764706" blue="0.41568627450980394" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="v2D-u3-e3x" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="E5A-xg-gS7"/>
-                            <constraint firstItem="v2D-u3-e3x" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="438" id="esh-SA-nTt"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="v2D-u3-e3x" secondAttribute="bottom" constant="80" id="fMx-cP-ncl"/>
+                            <constraint firstItem="v2D-u3-e3x" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="300" id="esh-SA-nTt"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="v2D-u3-e3x" secondAttribute="bottom" constant="218" id="fMx-cP-ncl"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="lHt-m7-oT7"/>
@@ -42,10 +42,10 @@
             </objects>
             <point key="canvasLocation" x="1055" y="239"/>
         </scene>
-        <!--Tamanio-->
+        <!--View Controller-->
         <scene sceneID="4sI-px-fYJ">
             <objects>
-                <viewController title="Tamanio" id="qLW-dH-xZX" sceneMemberID="viewController">
+                <viewController id="qLW-dH-xZX" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Ed2-Dd-9al"/>
                         <viewControllerLayoutGuide type="bottom" id="H6H-kJ-9Yo"/>
@@ -73,7 +73,7 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="0.4823529412" blue="0.41568627450000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="hOw-uH-ohi" firstAttribute="centerX" secondItem="zWB-K1-lYR" secondAttribute="centerX" id="4lS-2O-7ty"/>
                             <constraint firstItem="H6H-kJ-9Yo" firstAttribute="top" secondItem="OdX-fD-3D8" secondAttribute="bottom" constant="37" id="NJA-Vo-19i"/>
@@ -87,10 +87,10 @@
             </objects>
             <point key="canvasLocation" x="1726" y="239"/>
         </scene>
-        <!--Masa-->
+        <!--View Controller-->
         <scene sceneID="ijd-BH-eGS">
             <objects>
-                <viewController title="Masa" id="tMP-EK-jLu" sceneMemberID="viewController">
+                <viewController id="tMP-EK-jLu" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="18y-WX-ppI"/>
                         <viewControllerLayoutGuide type="bottom" id="o2q-je-g1N"/>
@@ -121,7 +121,7 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="0.4823529412" blue="0.41568627450000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="fqa-l7-WNi" firstAttribute="centerX" secondItem="yWd-bk-oRZ" secondAttribute="centerX" id="7yz-j7-QpR"/>
                             <constraint firstItem="o2q-je-g1N" firstAttribute="top" secondItem="fqa-l7-WNi" secondAttribute="bottom" constant="60" id="Bhp-4l-fRs"/>
@@ -135,10 +135,10 @@
             </objects>
             <point key="canvasLocation" x="1726" y="1027"/>
         </scene>
-        <!--Ingredientes-->
+        <!--View Controller-->
         <scene sceneID="1Z7-8X-Lw0">
             <objects>
-                <viewController title="Ingredientes" id="4AH-4C-DIu" sceneMemberID="viewController">
+                <viewController id="4AH-4C-DIu" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="5Cc-vS-AWk"/>
                         <viewControllerLayoutGuide type="bottom" id="RU7-Ig-e8m"/>
@@ -147,6 +147,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="INGREDIENTES" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0bf-c9-dvB">
+                                <rect key="frame" x="241" y="60" width="118" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qkb-Ul-EDQ">
                                 <rect key="frame" x="252" y="524" width="96" height="30"/>
                                 <constraints>
@@ -159,20 +165,14 @@
                                     <segue destination="eEI-SO-x15" kind="show" id="aHE-kl-Hc2"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="INGREDIENTES" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0bf-c9-dvB">
-                                <rect key="frame" x="241" y="93" width="118" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="0.4823529412" blue="0.41568627450000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="RU7-Ig-e8m" firstAttribute="top" secondItem="Qkb-Ul-EDQ" secondAttribute="bottom" constant="46" id="IEN-AG-hS8"/>
                             <constraint firstItem="Qkb-Ul-EDQ" firstAttribute="centerX" secondItem="nbu-cM-Sa7" secondAttribute="centerX" id="Mhq-FW-RHy"/>
-                            <constraint firstItem="RU7-Ig-e8m" firstAttribute="top" secondItem="0bf-c9-dvB" secondAttribute="bottom" constant="486" id="YKw-qx-YWx"/>
+                            <constraint firstItem="RU7-Ig-e8m" firstAttribute="top" secondItem="0bf-c9-dvB" secondAttribute="bottom" constant="519" id="YKw-qx-YWx"/>
                             <constraint firstItem="0bf-c9-dvB" firstAttribute="centerX" secondItem="nbu-cM-Sa7" secondAttribute="centerX" id="cxH-Uf-0bv"/>
-                            <constraint firstItem="0bf-c9-dvB" firstAttribute="top" secondItem="5Cc-vS-AWk" secondAttribute="bottom" constant="29" id="dul-eJ-eqy"/>
+                            <constraint firstItem="0bf-c9-dvB" firstAttribute="top" secondItem="5Cc-vS-AWk" secondAttribute="bottom" constant="40" id="dul-eJ-eqy"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -180,10 +180,10 @@
             </objects>
             <point key="canvasLocation" x="341" y="1027"/>
         </scene>
-        <!--Comprobacion-->
+        <!--View Controller-->
         <scene sceneID="oUs-Ie-ojN">
             <objects>
-                <viewController title="Comprobacion" id="eEI-SO-x15" sceneMemberID="viewController">
+                <viewController id="eEI-SO-x15" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="RgF-mf-b3D"/>
                         <viewControllerLayoutGuide type="bottom" id="6SK-Vf-MCf"/>
@@ -201,7 +201,7 @@
                                 <state key="normal" title="Finalizar"/>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="0.4823529412" blue="0.41568627450000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="6SK-Vf-MCf" firstAttribute="top" secondItem="vVU-lG-9Bf" secondAttribute="bottom" constant="91" id="BKj-Tx-t4f"/>
                             <constraint firstItem="vVU-lG-9Bf" firstAttribute="centerX" secondItem="WN8-Y5-cek" secondAttribute="centerX" id="sry-I2-F4G"/>
@@ -213,10 +213,10 @@
             </objects>
             <point key="canvasLocation" x="341" y="1783"/>
         </scene>
-        <!--Final-->
+        <!--View Controller-->
         <scene sceneID="BYJ-34-Nob">
             <objects>
-                <viewController title="Final" id="rxb-2q-wzy" sceneMemberID="viewController">
+                <viewController id="rxb-2q-wzy" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="4LM-Lx-05m"/>
                         <viewControllerLayoutGuide type="bottom" id="uac-JY-ku9"/>
@@ -224,17 +224,17 @@
                     <view key="view" contentMode="scaleToFill" id="DDV-45-qz4">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="0.4823529412" blue="0.41568627450000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Eta-89-OVz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1039" y="1788"/>
         </scene>
-        <!--Queso-->
+        <!--View Controller-->
         <scene sceneID="Opi-9s-3fk">
             <objects>
-                <viewController title="Queso" id="isV-Xo-Jc5" sceneMemberID="viewController">
+                <viewController id="isV-Xo-Jc5" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="j6d-e0-7dv"/>
                         <viewControllerLayoutGuide type="bottom" id="ubH-D8-fAY"/>
@@ -243,7 +243,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="QUESO" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MIQ-hP-MSy">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="QUESO" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MIQ-hP-MSy">
                                 <rect key="frame" x="271" y="80" width="58" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -262,7 +262,7 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="0.4823529412" blue="0.41568627450000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="MIQ-hP-MSy" firstAttribute="top" secondItem="j6d-e0-7dv" secondAttribute="bottom" constant="60" id="C7u-ca-1ZD"/>
                             <constraint firstItem="ubH-D8-fAY" firstAttribute="top" secondItem="GJW-gP-KfO" secondAttribute="bottom" constant="48" id="GfM-8g-Xth"/>
